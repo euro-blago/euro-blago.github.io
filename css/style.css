@@ -398,7 +398,20 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 .request-form .just-call h3 {
     color: #e74c3c;
     margin-bottom: 0;
+}
+
+.phones {
     margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+@media (max-width: 512px) {
+.phones {
+    justify-content: center;
+}
 }
 
 /*-}*/
